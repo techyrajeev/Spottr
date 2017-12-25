@@ -1,4 +1,4 @@
-# KulrSpotter
+# KulrSpottr
 
 ## Description
 A responsive single page web application using react, redux, jest, enzyme, webpack, express, scss, google-material design icons.
@@ -7,7 +7,7 @@ Also backend has not been used in this project, all application states are store
 
 ### See live version -
 
-[KulrSpotter](https://kulr-spottr.herokuapp.com/)
+[KulrSpottr](https://kulr-spottr.herokuapp.com/)
 
 ## Tools and Technologies used
 * **ReactJs**: To create user interace views
@@ -87,7 +87,7 @@ npm run test
 Open the [localhost](http://localhost:8080/) in browser
 
 ### 5. See live running project   
-Open the [KulrSpotter](https://kulr-spottr.herokuapp.com/) in browser
+Open the [KulrSpottr](https://kulr-spottr.herokuapp.com/) in browser
 
 
 ## Other important scripts to run
