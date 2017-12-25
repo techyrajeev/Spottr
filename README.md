@@ -10,18 +10,18 @@ Also backend has not been used in this project, all application states are store
 [KulrSpottr](https://kulr-spottr.herokuapp.com/)
 
 ## Tools and Technologies used
-* **ReactJs**: To create user interace views
-* **Redux**: For application state management on client side
-* **Webpack** : As module bundler and static assest generator, to covert jsx, and es6 code to vanilla javascript with the help of babel
-* **Express** : to serve the generated module bundle via node.js based server
-* **Jest and Enzyme** : for unit testing
+* **ReactJs**: To create user interface and view components
+* **Redux**: For application's state management on client side
+* **Webpack** : As module bundler and static assest generator, to convert jsx, and es6 code to vanilla javascript with the help of babel
+* **Express** : To serve the generated javascript module bundle, html, css via node.js based server
+* **Jest and Enzyme** : For unit testing
 * **Scss** : For styling the user interface
-* **Html** : for markup and layout
+* **Html** : For view markup and layout
 * **babel** : To use latest es6 features and jsx to js transpilation
 * **npm** : To use nodejs based packages and run node scripts
-* **nodejs** : for node run time envoriment and express server
-* **localStorage** : in browser memory to store app's state
-* **Google material icons** : for using font based icons in the project
+* **nodejs** : For node run time envoriment and express server
+* **localStorage** : In browser memory to store app's state
+* **Google material icons** : For using font based icons in the project
 * **Other tools** : Vim, and Chrome, firefox, Chrome dev tools, redux-dev tools
 
 ## Project structure and layout
