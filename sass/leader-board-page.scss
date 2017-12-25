@@ -1,0 +1,65 @@
+.leader-board-container {
+
+    border  : 1px solid #797676;
+    padding : .4em;
+    margin  : .50em;
+    cursor  : pointer;
+
+    .leader-board-heading {
+        &:after {
+            content : "";
+            clear   : both;
+            display : table;
+        }
+
+        .left {
+            float: left;
+            width: 10%;
+        }
+
+        .center {
+            text-align : center;
+            width      : 100%;
+        }
+
+        .right {
+            float: right;
+            width: 10%;
+        }
+    }
+}
+
+.leader-board-players {
+
+    .player-detail {
+        border  : 1px solid #797676;
+        padding : .4em;
+        margin  : .50em;
+        cursor  : pointer;
+        cursor : default;
+
+        &:after {
+            content : "";
+            clear   : both;
+            display : table;
+        }
+
+        .left {
+            float   : left;
+            width   : 60%;
+        }
+
+        .center {
+            text-align : center;
+            width      : 100%;
+        }
+
+        .right {
+            float         : right;
+            width         : 35%;
+            text-align    : right;
+            padding-right : 10px;
+        }
+    }
+}
+

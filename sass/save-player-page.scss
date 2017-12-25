@@ -1,0 +1,54 @@
+.player-page {
+    border        : 1px solid $color_pale_slate;
+    background    : $color_pale_slate;
+
+    h2 {
+        text-align    : center;
+        margin-bottom : 20px;
+    }
+
+    h3 {
+        width:50%;
+        display:inline-block;
+    }
+
+    h3 + h3 {
+        width:50%;
+        display:inline-block;
+        text-align: right;
+    }
+
+    .player-saved {
+        margin-top    : 30px;
+        margin-bottom : 30px;
+        padding       : 0.8em;
+    }
+
+    .player-form {
+        margin-top    : 30px;
+        margin-bottom : 30px;
+        padding       : 0.5em;
+
+        input[type=text],
+        input[type=tel],
+        input[type=number],
+        input[type=date],
+        input[type=email],
+        input[type=password],
+        {
+            @include input-override(
+            $ht:26px,$br:3px,$bw:1px,
+            $bColor:$color_mountain_mist,$fs:1em,$lh:1.3333333
+            );
+        }
+
+        label {
+            display       : inline-block;
+            max-width     : 100%;
+            margin-bottom : 5px;
+            margin-top    : 5px;
+            font-weight   : 700;
+        }
+    }
+}
+

@@ -1,0 +1,21 @@
+#main_container{
+    margin    : 0 auto;
+    max-width : 1200px;
+    > #content {
+        float         : right;
+        width         : 68%;
+    }
+
+    aside {
+        float            : left;
+        padding          : 1%;
+        width            : 29%;
+        background-color : #eee;
+        border           : 1px solid #aca7a7;
+        min-height       : 890px;
+    }
+}
+
+
+
+

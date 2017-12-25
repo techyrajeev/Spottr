@@ -1,0 +1,31 @@
+.game-page {
+    .game-level-container {
+        border        : 1px solid #797676;
+        padding       : .3em;
+        margin        : .10em;
+        margin-bottom : 15px;
+        margin-top    : 18px;
+
+            &:after {
+                content : "";
+                clear   : both;
+                display : table;
+            }
+
+            .left {
+                float : left;
+                width : 40%;
+            }
+
+            .center {
+                text-align : center;
+                width      : 100%;
+            }
+
+            .right {
+                float      : right;
+                text-align : right;
+                width      : 40%;
+            }
+    }
+}

@@ -1,0 +1,29 @@
+@media all and (max-width : 768px) {
+    header {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    div#main_container {
+        #content {
+            width        : 100%;
+        }
+        #sidebar {
+            width      : 96%;
+            padding    : 2%;
+            border-top : 3px solid #339523;
+            min-height : 100% !important;
+        }
+    }
+
+
+
+    div.game-page {
+        margin-left  : 0.5em;
+        margin-right : 0.5em;
+    }
+
+}

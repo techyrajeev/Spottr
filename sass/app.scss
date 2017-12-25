@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/mixins';
+
+@import 
+'./reset',
+'./body',
+'./media-queries',
+'./main',
+'./grid',
+'./cell',
+'./buttons',
+'./game-page',
+'./text-field',
+'./save-player-page',
+'./leader-board-page',
+'./footer',
+'./header',
+'./section',
+'./icons';
+
